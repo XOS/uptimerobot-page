@@ -6387,10 +6387,10 @@ postcss-functions@^4.0.2:
   dependencies:
     postcss-value-parser "^4.0.0"
 
-postcss-import@^13.0.0:
-  version "13.0.0"
-  resolved "https://registry.nlark.com/postcss-import/download/postcss-import-13.0.0.tgz?cache=0&sync_timestamp=1620671613219&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-import%2Fdownload%2Fpostcss-import-13.0.0.tgz"
-  integrity "sha1-1pYM2ePeVGR0OwTdjNnYcGYvi4w= sha512-LPUbm3ytpYopwQQjqgUH4S3EM/Gb9QsaSPP/5vnoi+oKVy3/mIk2sc0Paqw7RL57GpScm9MdIMUypw2znWiBpg=="
+postcss-import@^14.0.2:
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-import/-/postcss-import-14.0.2.tgz#60eff77e6be92e7b67fe469ec797d9424cae1aa1"
+  integrity sha512-BJ2pVK4KhUyMcqjuKs9RijV5tatNzNa73e/32aBVE/ejYPe37iH+6vAu9WvqUkB5OAYgLHzbSvzHnorybJCm9g==
   dependencies:
     postcss-value-parser "^4.0.0"
     read-cache "^1.0.0"

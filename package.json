@@ -83,7 +83,7 @@
         "postcss-assets": "^6.0.0",
         "postcss-custom-properties": "^9.2.0",
         "postcss-debug": "^0.4.2",
-        "postcss-import": "^13.0.0",
+        "postcss-import": "^14.0.2",
         "postcss-nested": "^5.0.6",
         "prettier": "^2.5.1",
         "rimraf": "^3.0.2",
