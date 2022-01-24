@@ -40,7 +40,7 @@
     "dependencies": {
         "config": "^3.3.6",
         "cron": "^1.8.2",
-        "date-fns": "^2.27.0",
+        "date-fns": "^2.28.0",
         "dotenv": "^10.0.0",
         "immutable": "^4.0.0",
         "js-yaml": "^4.1.0",
