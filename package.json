@@ -58,7 +58,7 @@
         "@babel/node": "^7.16.8",
         "@babel/preset-env": "^7.16.11",
         "autoprefixer": "^9.1.0",
-        "ava": "4.0.0-rc.1",
+        "ava": "4.0.1",
         "browser-sync": "^2.27.7",
         "cheerio": "^1.0.0-rc.10",
         "codecov": "^3.8.3",
