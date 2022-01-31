@@ -2242,7 +2242,7 @@ color-name@1.1.3:
   resolved "https://registry.npm.taobao.org/color-name/download/color-name-1.1.3.tgz"
   integrity "sha1-p9BVi9icQveV3UIyj3QIMcpTvCU= sha512-72fSenhMw2HZMTVHeCA9KCmpEIbzWiQsjN+BHcBbS9vr1mtt+vJjPdksIBNUmKAW8TFUDPJK5SUU3QhE9NEXDw=="
 
-color-name@^1.1.4, color-name@~1.1.4:
+color-name@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npm.taobao.org/color-name/download/color-name-1.1.4.tgz"
   integrity sha1-wqCah6y95pVD3m9j+jmVyCbFNqI=
@@ -4401,11 +4401,6 @@ invert-kv@^1.0.0:
   resolved "https://registry.nlark.com/invert-kv/download/invert-kv-1.0.0.tgz?cache=0&sync_timestamp=1630997009606&other_urls=https%3A%2F%2Fregistry.nlark.com%2Finvert-kv%2Fdownload%2Finvert-kv-1.0.0.tgz"
   integrity "sha1-EEqOSqym09jNFXqO+L+rLXo//bY= sha512-xgs2NH9AE66ucSq4cNG1nhSFghr5l6tdL15Pk+jl46bmmBapgoaY/AacXyaDznAqmGL99TiLSQgO/XazFSKYeQ=="
 
-ip-regex@^4.1.0:
-  version "4.3.0"
-  resolved "https://registry.npm.taobao.org/ip-regex/download/ip-regex-4.3.0.tgz?cache=0&sync_timestamp=1611327510930&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fip-regex%2Fdownload%2Fip-regex-4.3.0.tgz"
-  integrity "sha1-aHJ1qw9X+naXj/j03dyKI9WZDbU= sha512-B9ZWJxHHOHUhUjCPrMpLD4xEq35bUTClHM1S6CBU5ixQnkZmwipwgc96vAd7AAGM9TGHvJR+Uss+/Ak6UphK+Q=="
-
 irregular-plurals@^3.2.0:
   version "3.3.0"
   resolved "https://registry.npm.taobao.org/irregular-plurals/download/irregular-plurals-3.3.0.tgz?cache=0&sync_timestamp=1618380988169&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Firregular-plurals%2Fdownload%2Firregular-plurals-3.3.0.tgz"
@@ -4754,13 +4749,6 @@ is-unicode-supported@^1.0.0:
   version "1.1.0"
   resolved "https://registry.nlark.com/is-unicode-supported/download/is-unicode-supported-1.1.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fis-unicode-supported%2Fdownload%2Fis-unicode-supported-1.1.0.tgz"
   integrity "sha1-kSe3H5+oL1LKXCDpgue+wO4x7h4= sha512-lDcxivp8TJpLG75/DpatAqNzOpDPSpED8XNtrpBHTdQ2InQ1PbW78jhwSxyxhhu+xbVSast2X38bwj8atwoUQA=="
-
-is-url-superb@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmmirror.com/is-url-superb/download/is-url-superb-3.0.0.tgz"
-  integrity "sha1-uaHah4oaxzZZBH0eb07yLCCdPiU= sha512-3faQP+wHCGDQT1qReM5zCPx2mxoal6DzbzquFlCYJLWyy4WPTved33ea2xFbX37z4NoriEwZGIYhFtx8RUB5wQ=="
-  dependencies:
-    url-regex "^5.0.0"
 
 is-utf8@^0.2.0, is-utf8@^0.2.1:
   version "0.2.1"
@@ -6372,13 +6360,12 @@ postcss-convert-values@^5.0.3:
   dependencies:
     postcss-value-parser "^4.2.0"
 
-postcss-custom-properties@^9.2.0:
-  version "9.2.0"
-  resolved "https://registry.nlark.com/postcss-custom-properties/download/postcss-custom-properties-9.2.0.tgz?cache=0&sync_timestamp=1631899655269&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fpostcss-custom-properties%2Fdownload%2Fpostcss-custom-properties-9.2.0.tgz"
-  integrity "sha1-gLrg1uDFECRazn7elaxSdxLqJOc= sha512-IFRV7LwapFkNa3MtvFpw+MEhgyUpaVZ62VlR5EM0AbmnGbNhU9qIE8u02vgUbl1gLkHK6sterEavamVPOwdE8g=="
+postcss-custom-properties@^12.1.4:
+  version "12.1.4"
+  resolved "https://registry.yarnpkg.com/postcss-custom-properties/-/postcss-custom-properties-12.1.4.tgz#e3d8a8000f28094453b836dff5132385f2862285"
+  integrity sha512-i6AytuTCoDLJkWN/MtAIGriJz3j7UX6bV7Z5t+KgFz+dwZS15/mlTJY1S0kRizlk6ba0V8u8hN50Fz5Nm7tdZw==
   dependencies:
-    postcss "^7.0.17"
-    postcss-values-parser "^3.0.5"
+    postcss-value-parser "^4.2.0"
 
 postcss-debug@^0.4.2:
   version "0.4.2"
@@ -6620,16 +6607,6 @@ postcss-value-parser@^4.0.0, postcss-value-parser@^4.0.2, postcss-value-parser@^
   resolved "https://registry.npmmirror.com/postcss-value-parser/download/postcss-value-parser-4.2.0.tgz"
   integrity sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==
 
-postcss-values-parser@^3.0.5:
-  version "3.2.1"
-  resolved "https://registry.npmmirror.com/postcss-values-parser/download/postcss-values-parser-3.2.1.tgz"
-  integrity "sha1-VRFGB95mMTOLqHKNPpwVeFrcwCc= sha512-SQ7/88VE9LhJh9gc27/hqnSU/aZaREVJcRVccXBmajgP2RkjdJzNyH/a9GCVMI5nsRhT0jC5HpUMwfkz81DVVg=="
-  dependencies:
-    color-name "^1.1.4"
-    is-url-superb "^3.0.0"
-    postcss "^7.0.5"
-    url-regex "^5.0.0"
-
 postcss@^5.0.19, postcss@^5.0.4:
   version "5.2.18"
   resolved "https://registry.npmmirror.com/postcss/download/postcss-5.2.18.tgz"
@@ -6640,7 +6617,7 @@ postcss@^5.0.19, postcss@^5.0.4:
     source-map "^0.5.6"
     supports-color "^3.2.3"
 
-postcss@^7.0.17, postcss@^7.0.32, postcss@^7.0.5:
+postcss@^7.0.32:
   version "7.0.39"
   resolved "https://registry.npmmirror.com/postcss/download/postcss-7.0.39.tgz"
   integrity "sha1-liQ3XZZWMOLh8sAqk1yCpZy0gwk= sha512-yioayjNbHn6z1/Bywyb2Y4s3yvDAeXGOyxqD+LnVOinq6Mdmd++SW2wUNVzavyyHxd6+DxzWGIuosg6P1Rj8uA=="
@@ -8087,11 +8064,6 @@ timsort@^0.3.0:
   resolved "https://registry.npm.taobao.org/timsort/download/timsort-0.3.0.tgz"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
-tlds@^1.203.0:
-  version "1.227.0"
-  resolved "https://registry.npmmirror.com/tlds/download/tlds-1.227.0.tgz"
-  integrity sha512-H6KXre7PSkfZyPiGzHvdG/p42LCfPmmyH3MhmZnULiVGEGXKBe8vzyLrw6q0UAtXOL0eNScA9vC4DcfhrcaPlg==
-
 to-absolute-glob@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/to-absolute-glob/download/to-absolute-glob-2.0.2.tgz"
@@ -8411,14 +8383,6 @@ url-parse-lax@^3.0.0:
   integrity "sha1-FrXK/Afb42dsGxmZF3gj1lA6yww= sha512-NjFKA0DidqPa5ciFcSrXnAltTtzz84ogy+NebPvfEgAck0+TNg4UJ4IN+fB7zRZfbgUf0syOo9MDxFkDSMuFaQ=="
   dependencies:
     prepend-http "^2.0.0"
-
-url-regex@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.npm.taobao.org/url-regex/download/url-regex-5.0.0.tgz"
-  integrity "sha1-j1RWq4PYmNGLL5F1OnAmSbhzJzo= sha512-O08GjTiAFNsSlrUWfqF1jH0H1W3m35ZyadHrGv5krdnmPPoxP27oDTqux/579PtaroiSGm5yma6KT1mHFH6Y/g=="
-  dependencies:
-    ip-regex "^4.1.0"
-    tlds "^1.203.0"
 
 urlgrey@1.0.0:
   version "1.0.0"

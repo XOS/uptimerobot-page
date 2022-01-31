@@ -82,7 +82,7 @@
         "nyc": "^15.1.0",
         "postcss": "^8.4.5",
         "postcss-assets": "^6.0.0",
-        "postcss-custom-properties": "^9.2.0",
+        "postcss-custom-properties": "^12.1.4",
         "postcss-debug": "^0.4.2",
         "postcss-import": "^13.0.0",
         "postcss-nested": "^5.0.6",
